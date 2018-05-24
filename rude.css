@@ -1,0 +1,63 @@
+a {
+    color: blue;
+}
+
+
+.nav{
+    list-style:none;
+    margin: 20px;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+
+.newbg {
+    background-color: white; 
+   font-family: 'Libre Baskerville', serif;
+  
+}
+
+
+#landingImage {
+position:relative;
+color: white;
+text-align: center;
+margin-top: 0px;
+
+}
+
+.landingText {
+    position: absolute;
+    margin: auto;
+    top: 20px; left: 0; bottom: 0; right: 20px;
+	/*font-family: 'Satisfy', cursive;*/
+	/*font-family: 'Source Sans Pro', sans-serif;*/
+	font-family: 'Libre Baskerville', serif;
+	top: 20%;
+    font-size: 6rem;
+}
+
+.landingLogo {
+     -webkit-filter: hue-rotate(40deg) brightness(200%);
+}
+
+.aboutImage {
+     -webkit-filter: grayscale(1) brightness(110%);
+}
+
+#aboutMe, .articleContent, .subHead {
+    font-family: 'Libre Baskerville', serif;
+    color: #4a4a4f;
+    background-color: white;
+    font-size: 2rem;
+    margin-left: 35px;
+}
+
+.card {
+    padding: 20px 20px 20px 20px;
+    padding-bottom: 40px;
+    border: 1px solid black;
+    margin: 20px 20px 20px 20px ;
+}
+
