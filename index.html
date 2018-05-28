@@ -36,6 +36,7 @@
                 
                     <li><a href="#">Sample Menus</a></li>
                     <li><a href="#">Gallery</a></li>
+                    <!--<li><a href="/"><img src="./images/logo.png"></img></a></li>-->
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
 
@@ -109,24 +110,59 @@ Don’t hesitate to get in touch so we can tailor our menus and event planning t
     <hr>
     
     <section class="Gallery">
-        <div class="row"> 
+        <div class="row">
+            <div class="col-12">
         <h1>Gallery and Menus</h1>
-          <div class="column">
-              <img src="./images/CrabCakes.jpg"></img>
-              <img src="./images/Salmon.jpg"></img>
-              <img src="./images/saladboxes.jpg"></img>
-              <img src="./images/hamhock.jpg"></img>
+       <hr>
+        <div class="galleryButtons">
+         <a href="#" class="btn btn-default gallerybtn" role="button">View Sample Menus</a>
+        </div> 
+        </div>
         </div>
         
-        <div class="column">
-            <img src="./images/desert.JPG"></img>
-            
-        </div>
+        <div class="row galleryRow1">
+        
+          <div class="column galleryC1">
+              <img class="img-responsive" src="./images/CrabCakes.jpg"></img>
+              </div>
+              
+              <div class="column galleryC1">
+               <img  class="img-responsive" src="./images/Desert1.JPG"></img>
+              </div>
+              
+              <div class="column galleryC1">
+              <img  class="img-responsive" src="./images/board.JPG"></img>
+               </div>
+               
+               <div class="column galleryC1">
+              <img   class="img-responsive" src="./images/pieboard.JPG"></img>
+               </div>
+       </div>
+      
     </section>
     
-
-                        <!--<a href="#" class="btn btn-info" role="button">View Gallery</a>-->
-                        <!--<a href="#" class="btn btn-info" role="button">View Menus</a>-->
+    <hr>
+       <section id="contact" class="p-5 bg-dark">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 col-xs-10 col-sm-offset-3 col-xs-offset-1 text-center">
+                    <h1 class="formHeader">Got an event in mind?</h1>
+                    <br>
+                    <p class="formText">Pop in some information about your even and I'll respond as quckly as possible.</p>
+                    <br>
+                    <form class="myForm" onsubmit="openModal()" action="https://formspree.io/wolfe.nichola@gmail.com" method="POST">
+                        <div class="form-group"><input class="form-control" name="email" required="" type="email" placeholder="Your email *"></div>
+                        <div class="form-group"><input class="form-control mt-3" name="name" type="text" placeholder="Your name"></div>
+                        <div class="form-group"><input class="form-control mt-3" name="telephone" type="tel" placeholder="Your telephone"></div>
+                        <div class="form-group"><input class="form-control mt-3" name="information" type="information" placeholder="How did you find me"></div>
+                        <div class="form-group"><textarea class="form-control" name="message" rows="12" placeholder="Your message"></textarea></div>
+                        <button type="submit" value="send" class="btn btn-default contactButton">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+                       
 
     <script src="https://code.jquery.com/jquery.min.js"></script>
     <script src="javascript/script.js"></script>
