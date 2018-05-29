@@ -87,9 +87,9 @@ margin-top: 0px;
     line-height: 2;
 }
 
-.card {
--webkit-box-shadow: 9px -7px 5px -5px rgba(137,181,123,1);
-}
+/*.card {*/
+/*-webkit-box-shadow: 9px -7px 5px -5px rgba(137,181,123,1);*/
+/*}*/
 
 .card img {
     margin: auto;
