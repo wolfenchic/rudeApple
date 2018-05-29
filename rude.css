@@ -23,6 +23,14 @@ h1, h2, h3, h4 {
 
 }
 
+.nav li{
+    display:inline;
+    color: #5EC5C4;
+}
+.nav a{
+    display:inline-block;
+}
+
 
 .newbg {
     background-color: white; 
@@ -87,9 +95,10 @@ margin-top: 0px;
     line-height: 2;
 }
 
-/*.card {*/
+.card {
 /*-webkit-box-shadow: 9px -7px 5px -5px rgba(137,181,123,1);*/
-/*}*/
+border: 1px solid #92A48C;
+}
 
 .card img {
     margin: auto;
@@ -194,6 +203,13 @@ margin-top: 0px;
     }
 }
 
+@media only screen and (max-width: 500px) {
+    .landingText, .banner {
+        font-size: 2rem;
+        margin: auto;
+        margin-top: 100px;
+    }
+}
 
 
 
