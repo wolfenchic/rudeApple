@@ -88,7 +88,7 @@ margin-top: 0px;
 }
 
 .card {
--webkit-box-shadow: 3px 6px 19px 0px rgba(146,164,140,1);
+-webkit-box-shadow: 9px -7px 5px -5px rgba(137,181,123,1);
 }
 
 .card img {
@@ -176,8 +176,11 @@ margin-top: 0px;
     margin: 20px 20px 20px 20px ;
 }
 
+.hamhock {
+    margin: auto;
+}
 .menuIntro {
-    color: white;
+    color: #92a48c;
     font-size: 1.6rem;
     line-height: 1.7;
     font-family: 'Libre Baskerville', serif;
