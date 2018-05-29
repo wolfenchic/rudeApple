@@ -1,14 +1,18 @@
 a {
-    color: blue;
+    color: #92a48c;
 }
 
 h1, h2, h3, h4 {
     color: #6d463e;
+    margin-left: 35px;
+     font-family: 'Libre Baskerville', serif;
 }
 
-.btn-default {
+.btn-default, .contactButton {
     background-color: #92a48c;
     color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.7rem;
 }
 
 .nav{
@@ -54,7 +58,7 @@ margin-top: 0px;
      -webkit-filter: grayscale(1) brightness(110%);
 }
 
-#aboutMe, .articleContent, .Gallery {
+#aboutMe, .articleContent{
     font-family: 'Libre Baskerville', serif;
     color: #4a4a4f;
     background-color: white;
@@ -62,12 +66,6 @@ margin-top: 0px;
     margin-left: 35px;
 }
 
-.card {
-    padding: 20px 20px 20px 20px;
-    padding-bottom: 40px;
-    border: 1px solid black;
-    margin: 20px 20px 20px 20px ;
-}
 
 .contactButton {
     background-color: #92A48C;
@@ -78,49 +76,26 @@ margin-top: 0px;
     padding: 20px 20px 20px 20px;
 }
 
-.aboutMeText, .formText {
+.aboutMeText, .formText, .galleryIntro {
     font-size: 1.6rem;
     line-height: 1.7;
+    font-family: 'Libre Baskerville', serif;
 }
 
-
-.galleryRow1 {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+.card {
+-webkit-box-shadow: 3px 6px 19px 0px rgba(146,164,140,1);
 }
 
-
-.galleryc1 {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-  
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  border: 2px solid white;
-  padding: 5px 5px 5px 5px ;
-}
-
-
-
-.galleryButtons {
-    margin-left: 42%;
-    margin-right: 42%;
-    padding-bottom: 20px;
-}
-
-.gallerybtn {
-    font-size: 1.5rem;
+.card img {
     margin: auto;
     padding: 10px 10px 10px 10px;
 }
 
+
+
+
 #contact {
-            background: url(./images/apple.jpg);
+            background: url(./images/champagne.jpg);
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
@@ -129,12 +104,10 @@ margin-top: 0px;
             height: auto;
             /*-webkit-filter: hue-rotate(300deg);*/
             opacity: 0.8;
-
-            
+         
 }
 
 .myForm {
-    
     padding-bottom: 20px;
 }
 
@@ -142,19 +115,54 @@ margin-top: 0px;
     color: white;
 }
 
-@media screen and (max-width: 800px) {
-  .galleryc1 {
-    flex: 50%;
-    max-width: 50%;
-  }
+#text-carousel{
+   
+    /*background: rgba(255,255,255,0.8);*/
+    
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .galleryc1 {
-    flex: 100%;
-    max-width: 100%;
-  }
+.carousel1 {
+    opacity: 0.8;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2rem;
+    color: #92a48c;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: 1.0;
+}
+
+.carousel2 {
+   font-family: 'Libre Baskerville', serif;
+    font-size: 2rem;
+    color: #92a48c;
+    text-align: center;
+    opacity: 1.0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.carousel-control {
+    color: #92a48c;
+}
+
+.footerLogo {
+    margin: auto;
+}
+
+#Footer {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .carousel1, .carousel2 {
+        font-size: 1.5rem;
+        margin: auto;
+    }
 }
 
 

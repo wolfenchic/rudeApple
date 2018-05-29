@@ -21,7 +21,7 @@
 
 <body>
     <section class="Navbar">
-        <nav class="navbar navbar-default newbg">
+        <nav class="navbar navbar-default newbg navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
                      <a href="#" class="navbar-brand"><img src="./images/logo.png"></img></a>
@@ -109,37 +109,48 @@ Don’t hesitate to get in touch so we can tailor our menus and event planning t
     
     <hr>
     
-    <section class="Gallery">
-        <div class="row">
-            <div class="col-12">
-        <h1>Gallery and Menus</h1>
-       <hr>
-        <div class="galleryButtons">
-         <a href="#" class="btn btn-default gallerybtn" role="button">View Sample Menus</a>
-        </div> 
-        </div>
-        </div>
-        
-        <div class="row galleryRow1">
-        
-          <div class="column galleryC1">
-              <img class="img-responsive" src="./images/CrabCakes.jpg"></img>
-              </div>
-              
-              <div class="column galleryC1">
-               <img  class="img-responsive" src="./images/Desert1.JPG"></img>
-              </div>
-              
-              <div class="column galleryC1">
-              <img  class="img-responsive" src="./images/board.JPG"></img>
-               </div>
-               
-               <div class="column galleryC1">
-              <img   class="img-responsive" src="./images/pieboard.JPG"></img>
-               </div>
-       </div>
-      
-    </section>
+
+    
+    <div class="container-fluid galleryContainer">
+         <div class="row headingSection">
+             <div class="col-12 text-center">
+                 <h1 class="sectionHeading subHead">Gallery & Menus</h1>
+                 <br>
+                 <p class="galleryIntro">Our menus are tailored for each event. Browse the gallery and menu for inspiration.</p>
+                 <br>
+                 <a href="#" class="btn btn-default" role="button">View Sample Menu</a>
+                 
+                 <hr>
+             </div>
+             </div>
+             
+             
+             
+             <div class="container">
+             <div class="row">
+             
+             
+             <div class="col-lg-4 col-sm-4 col-xs-12">  
+                <div class="card galleryCard text-center">
+              <img class="galleryCard img-responsive" src="./images/CrabCakes.jpg"  alt="canapes, cater, catering, private catering"/> 
+                    </div>
+                    </div>
+                    
+                <div class="col-lg-4 col-sm-4 col-xs-12">  
+                <div class="card galleryCard text-center">
+              <img class="galleryCard img-responsive" src="./images/Desert1.JPG"  alt="canapes, cater, catering, private catering"/> 
+                    </div>
+                    </div>
+                    
+                 <div class="col-lg-4 col-sm-4 col-xs-12">  
+                <div class="card galleryCard text-center border border-white">
+              <img class="galleryCard img-responsive" src="./images/sambo.JPG"  alt="canapes, cater, catering, private catering"/> 
+                    </div>
+                    </div>
+
+    </div>
+    </div>
+    </div>
     
     <hr>
        <section id="contact" class="p-5 bg-dark">
@@ -148,7 +159,7 @@ Don’t hesitate to get in touch so we can tailor our menus and event planning t
                 <div class="col-sm-6 col-xs-10 col-sm-offset-3 col-xs-offset-1 text-center">
                     <h1 class="formHeader">Got an event in mind?</h1>
                     <br>
-                    <p class="formText">Pop in some information about your even and I'll respond as quckly as possible.</p>
+                    <p class="formText">Pop in some information about your event and I'll respond as quckly as possible.</p>
                     <br>
                     <form class="myForm" onsubmit="openModal()" action="https://formspree.io/wolfe.nichola@gmail.com" method="POST">
                         <div class="form-group"><input class="form-control" name="email" required="" type="email" placeholder="Your email *"></div>
@@ -162,6 +173,79 @@ Don’t hesitate to get in touch so we can tailor our menus and event planning t
             </div>
         </div>
         </div>
+        </section>
+        
+        <div id="text-carousel" class="carousel slide" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="row">
+        <div class="col-xs-offset-3 col-xs-6">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="carousel-content">
+                        <div>
+                           <p class="carousel2">"Thank you for a fabulous event and charming service".<br> Mandy </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel-content">
+                        <div>
+                            <p class="carousel1">"The food was excellent, we were so impressed".<br> Peter </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Controls --> <a class="left carousel-control" href="#text-carousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+ <a class="right carousel-control" href="#text-carousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+
+</div>
+
+</section>
+        
+ <hr>
+        <section id="Footer">
+        <footer class="myFooter">
+            <div class="container-fluid text-center">
+                <div class="row ">
+                    <div class="col-sm-4 footerSection">
+                       
+                        <a href="#">Gallery</a>
+                        <br>
+                        <br>
+                        <a href="#">Menus</a>
+                        </div>
+
+                    <div class="col-sm-4">
+                       <img class="img-responsive footerLogo" src="./images/RudeLogo.png"></img>
+                       <br>
+                       <br>
+                       <p>Website designed with <i class="fa fa-heart"></i> by <a href="https://www.nicholawolfe.com/">Nichola Wolfe</a></p>
+                  
+                     </div>
+                     
+                    <div class="col-sm-4 text-center">
+                       
+                            <a href="#">Contact</a>
+                            <br>
+                            <br>
+                            <a href="#">About</a>
+                        </div>
+                      
+                  
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </section>
+        
                        
 
     <script src="https://code.jquery.com/jquery.min.js"></script>
