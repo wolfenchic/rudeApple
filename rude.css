@@ -76,10 +76,15 @@ margin-top: 0px;
     padding: 20px 20px 20px 20px;
 }
 
-.aboutMeText, .formText, .galleryIntro {
+.aboutMeText, .formText, .galleryIntro, .menuParagraph {
     font-size: 1.6rem;
     line-height: 1.7;
     font-family: 'Libre Baskerville', serif;
+}
+
+.menuParagraph {
+    padding: 10px 10px 10px 10px;
+    line-height: 2;
 }
 
 .card {
@@ -155,6 +160,27 @@ margin-top: 0px;
     font-family: 'Libre Baskerville', serif;
     font-size: 1.6rem;
     text-align: center;
+}
+
+/*Menu page*/
+
+.menuContainer {
+    margin-top: 100px;
+    background-image: url(./images/festival.jpg);
+}
+
+.menuCard {
+    background-color: white;
+    opacity: 0.7;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px ;
+}
+
+.menuIntro {
+    color: white;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    font-family: 'Libre Baskerville', serif;
 }
 
 
