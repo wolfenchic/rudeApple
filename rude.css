@@ -32,6 +32,7 @@ h1, h2, h3, h4 {
 .nav li{
     display:inline;
     color: #5EC5C4;
+    margin: auto;
 }
 .nav a{
     display:inline-block;
@@ -172,6 +173,13 @@ border: 1px solid #92A48C;
 
 .carousel-control {
     color: #92a48c;
+}
+
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+   color: #E35D5B;
+   margin: 10px;
 }
 
 .footerLogo {
